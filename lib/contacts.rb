@@ -21,8 +21,8 @@ def remove_strawberry(contacts)
         if attribute == :favorite_ice_cream_flavors
           favorite_ice_cream_flavors.each do |flavors|
             if flavors == "strawberry"
-              favorite_ice_cream_flavors.reject{ |k| k == strawberry}
-            end
+             favorite_ice_cream_flavors.reject{ |k| k == strawberry}
+            end 
           end
         end
       end
